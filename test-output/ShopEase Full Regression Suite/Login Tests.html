@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  Login Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 28 23:12:19 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>41 seconds (41681 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC007_bothFieldsEmpty()'><b>TC007_bothFieldsEmpty</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC013_loginPageUrl()'><b>TC013_loginPageUrl</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC015_loginAfterLogout()'><b>TC015_loginAfterLogout</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC005_emptyUsername()'><b>TC005_emptyUsername</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC006_emptyPassword()'><b>TC006_emptyPassword</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC008_lockedUser()'><b>TC008_lockedUser</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC001_validLogin()'><b>TC001_validLogin</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC002_invalidUsername()'><b>TC002_invalidUsername</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC012_passwordMasking()'><b>TC012_passwordMasking</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC004_bothCredentialsInvalid()'><b>TC004_bothCredentialsInvalid</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC003_invalidPassword()'><b>TC003_invalidPassword</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC009_standardUser()'><b>TC009_standardUser</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC010_problemUser()'><b>TC010_problemUser</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC011_performanceUser()'><b>TC011_performanceUser</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>5</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+<tr>
+<td title='com.shopEase.tests.LoginTests.TC014_logout()'><b>TC014_logout</b><br>Test class: com.shopEase.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopEase.tests.LoginTests@1bb5a082</td></tr>
+</table><p>
+</body>
+</html>

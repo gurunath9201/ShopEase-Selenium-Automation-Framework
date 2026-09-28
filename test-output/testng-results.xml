@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="60" passed="60" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-28T23:12:19 IST" name="ShopEase Full Regression Suite" finished-at="2026-09-28T23:15:15 IST" duration-ms="176170">
+    <groups>
+    </groups>
+    <test started-at="2026-09-28T23:12:19 IST" name="Login Tests" finished-at="2026-09-28T23:13:00 IST" duration-ms="41681">
+      <class name="com.shopEase.tests.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:19 IST" name="setUp" finished-at="2026-09-28T23:12:22 IST" duration-ms="2722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC001_validLogin()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:22 IST" name="TC001_validLogin" finished-at="2026-09-28T23:12:22 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_validLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:22 IST" name="tearDown" finished-at="2026-09-28T23:12:22 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC001_validLogin status=SUCCESS method=LoginTests.TC001_validLogin()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:22 IST" name="setUp" finished-at="2026-09-28T23:12:24 IST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC002_invalidUsername()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:24 IST" name="TC002_invalidUsername" finished-at="2026-09-28T23:12:24 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_invalidUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:24 IST" name="tearDown" finished-at="2026-09-28T23:12:24 IST" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC002_invalidUsername status=SUCCESS method=LoginTests.TC002_invalidUsername()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:24 IST" name="setUp" finished-at="2026-09-28T23:12:25 IST" duration-ms="1291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC003_invalidPassword()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:25 IST" name="TC003_invalidPassword" finished-at="2026-09-28T23:12:26 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_invalidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:26 IST" name="tearDown" finished-at="2026-09-28T23:12:26 IST" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC003_invalidPassword status=SUCCESS method=LoginTests.TC003_invalidPassword()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:26 IST" name="setUp" finished-at="2026-09-28T23:12:27 IST" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC004_bothCredentialsInvalid()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:27 IST" name="TC004_bothCredentialsInvalid" finished-at="2026-09-28T23:12:27 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_bothCredentialsInvalid -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:27 IST" name="tearDown" finished-at="2026-09-28T23:12:28 IST" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC004_bothCredentialsInvalid status=SUCCESS method=LoginTests.TC004_bothCredentialsInvalid()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:28 IST" name="setUp" finished-at="2026-09-28T23:12:29 IST" duration-ms="1802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC005_emptyUsername()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:29 IST" name="TC005_emptyUsername" finished-at="2026-09-28T23:12:30 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_emptyUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:30 IST" name="tearDown" finished-at="2026-09-28T23:12:30 IST" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC005_emptyUsername status=SUCCESS method=LoginTests.TC005_emptyUsername()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:30 IST" name="setUp" finished-at="2026-09-28T23:12:31 IST" duration-ms="1556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC006_emptyPassword()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:31 IST" name="TC006_emptyPassword" finished-at="2026-09-28T23:12:32 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC006_emptyPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:32 IST" name="tearDown" finished-at="2026-09-28T23:12:32 IST" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC006_emptyPassword status=SUCCESS method=LoginTests.TC006_emptyPassword()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:32 IST" name="setUp" finished-at="2026-09-28T23:12:34 IST" duration-ms="1783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC007_bothFieldsEmpty()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:34 IST" name="TC007_bothFieldsEmpty" finished-at="2026-09-28T23:12:34 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC007_bothFieldsEmpty -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:34 IST" name="tearDown" finished-at="2026-09-28T23:12:34 IST" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC007_bothFieldsEmpty status=SUCCESS method=LoginTests.TC007_bothFieldsEmpty()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:34 IST" name="setUp" finished-at="2026-09-28T23:12:36 IST" duration-ms="2019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC008_lockedUser()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:36 IST" name="TC008_lockedUser" finished-at="2026-09-28T23:12:37 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC008_lockedUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:37 IST" name="tearDown" finished-at="2026-09-28T23:12:37 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC008_lockedUser status=SUCCESS method=LoginTests.TC008_lockedUser()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:37 IST" name="setUp" finished-at="2026-09-28T23:12:39 IST" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC009_standardUser()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:39 IST" name="TC009_standardUser" finished-at="2026-09-28T23:12:39 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC009_standardUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:39 IST" name="tearDown" finished-at="2026-09-28T23:12:39 IST" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC009_standardUser status=SUCCESS method=LoginTests.TC009_standardUser()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:39 IST" name="setUp" finished-at="2026-09-28T23:12:41 IST" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC010_problemUser()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:41 IST" name="TC010_problemUser" finished-at="2026-09-28T23:12:41 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC010_problemUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:41 IST" name="tearDown" finished-at="2026-09-28T23:12:42 IST" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC010_problemUser status=SUCCESS method=LoginTests.TC010_problemUser()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:42 IST" name="setUp" finished-at="2026-09-28T23:12:43 IST" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC011_performanceUser()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:43 IST" name="TC011_performanceUser" finished-at="2026-09-28T23:12:49 IST" duration-ms="5418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC011_performanceUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:49 IST" name="tearDown" finished-at="2026-09-28T23:12:49 IST" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC011_performanceUser status=SUCCESS method=LoginTests.TC011_performanceUser()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:49 IST" name="setUp" finished-at="2026-09-28T23:12:51 IST" duration-ms="2385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC012_passwordMasking()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:51 IST" name="TC012_passwordMasking" finished-at="2026-09-28T23:12:51 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC012_passwordMasking -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:51 IST" name="tearDown" finished-at="2026-09-28T23:12:52 IST" duration-ms="193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC012_passwordMasking status=SUCCESS method=LoginTests.TC012_passwordMasking()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:52 IST" name="setUp" finished-at="2026-09-28T23:12:53 IST" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC013_loginPageUrl()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:53 IST" name="TC013_loginPageUrl" finished-at="2026-09-28T23:12:53 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC013_loginPageUrl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:53 IST" name="tearDown" finished-at="2026-09-28T23:12:53 IST" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC013_loginPageUrl status=SUCCESS method=LoginTests.TC013_loginPageUrl()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:53 IST" name="setUp" finished-at="2026-09-28T23:12:55 IST" duration-ms="1818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC014_logout()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:55 IST" name="TC014_logout" finished-at="2026-09-28T23:12:56 IST" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC014_logout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:56 IST" name="tearDown" finished-at="2026-09-28T23:12:56 IST" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC014_logout status=SUCCESS method=LoginTests.TC014_logout()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:12:56 IST" name="setUp" finished-at="2026-09-28T23:13:00 IST" duration-ms="3781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC015_loginAfterLogout()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:13:00 IST" name="TC015_loginAfterLogout" finished-at="2026-09-28T23:13:00 IST" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC015_loginAfterLogout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082]" started-at="2026-09-28T23:13:00 IST" name="tearDown" finished-at="2026-09-28T23:13:00 IST" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC015_loginAfterLogout status=SUCCESS method=LoginTests.TC015_loginAfterLogout()[pri:0, instance:com.shopEase.tests.LoginTests@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shopEase.tests.LoginTests -->
+    </test> <!-- Login Tests -->
+    <test started-at="2026-09-28T23:13:01 IST" name="Product Tests" finished-at="2026-09-28T23:13:37 IST" duration-ms="36247">
+      <class name="com.shopEase.tests.ProductTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:01 IST" name="setUp" finished-at="2026-09-28T23:13:02 IST" duration-ms="1839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC016_productsPageDisplayed()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:02 IST" name="TC016_productsPageDisplayed" finished-at="2026-09-28T23:13:03 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC016_productsPageDisplayed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:03 IST" name="tearDown" finished-at="2026-09-28T23:13:03 IST" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC016_productsPageDisplayed status=SUCCESS method=ProductTests.TC016_productsPageDisplayed()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:03 IST" name="setUp" finished-at="2026-09-28T23:13:05 IST" duration-ms="1689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC017_productListDisplayed()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:05 IST" name="TC017_productListDisplayed" finished-at="2026-09-28T23:13:05 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC017_productListDisplayed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:05 IST" name="tearDown" finished-at="2026-09-28T23:13:05 IST" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC017_productListDisplayed status=SUCCESS method=ProductTests.TC017_productListDisplayed()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:05 IST" name="setUp" finished-at="2026-09-28T23:13:07 IST" duration-ms="1896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC018_addBackpack()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:07 IST" name="TC018_addBackpack" finished-at="2026-09-28T23:13:07 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC018_addBackpack -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:07 IST" name="tearDown" finished-at="2026-09-28T23:13:08 IST" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC018_addBackpack status=SUCCESS method=ProductTests.TC018_addBackpack()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:08 IST" name="setUp" finished-at="2026-09-28T23:13:09 IST" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC019_addBikeLight()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:09 IST" name="TC019_addBikeLight" finished-at="2026-09-28T23:13:10 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC019_addBikeLight -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:10 IST" name="tearDown" finished-at="2026-09-28T23:13:10 IST" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC019_addBikeLight status=SUCCESS method=ProductTests.TC019_addBikeLight()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:10 IST" name="setUp" finished-at="2026-09-28T23:13:12 IST" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC020_addTShirt()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:12 IST" name="TC020_addTShirt" finished-at="2026-09-28T23:13:12 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC020_addTShirt -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:12 IST" name="tearDown" finished-at="2026-09-28T23:13:12 IST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC020_addTShirt status=SUCCESS method=ProductTests.TC020_addTShirt()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:12 IST" name="setUp" finished-at="2026-09-28T23:13:14 IST" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC021_addFleeceJacket()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:14 IST" name="TC021_addFleeceJacket" finished-at="2026-09-28T23:13:15 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC021_addFleeceJacket -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:15 IST" name="tearDown" finished-at="2026-09-28T23:13:15 IST" duration-ms="173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC021_addFleeceJacket status=SUCCESS method=ProductTests.TC021_addFleeceJacket()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:15 IST" name="setUp" finished-at="2026-09-28T23:13:17 IST" duration-ms="1792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC022_addMultipleProducts()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:17 IST" name="TC022_addMultipleProducts" finished-at="2026-09-28T23:13:17 IST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC022_addMultipleProducts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:17 IST" name="tearDown" finished-at="2026-09-28T23:13:18 IST" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC022_addMultipleProducts status=SUCCESS method=ProductTests.TC022_addMultipleProducts()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:18 IST" name="setUp" finished-at="2026-09-28T23:13:19 IST" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC023_sortAToZ()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:19 IST" name="TC023_sortAToZ" finished-at="2026-09-28T23:13:20 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC023_sortAToZ -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:20 IST" name="tearDown" finished-at="2026-09-28T23:13:20 IST" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC023_sortAToZ status=SUCCESS method=ProductTests.TC023_sortAToZ()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:20 IST" name="setUp" finished-at="2026-09-28T23:13:21 IST" duration-ms="1556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC024_sortZToA()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:21 IST" name="TC024_sortZToA" finished-at="2026-09-28T23:13:22 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC024_sortZToA -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:22 IST" name="tearDown" finished-at="2026-09-28T23:13:22 IST" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC024_sortZToA status=SUCCESS method=ProductTests.TC024_sortZToA()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:22 IST" name="setUp" finished-at="2026-09-28T23:13:24 IST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC025_sortLowToHigh()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:24 IST" name="TC025_sortLowToHigh" finished-at="2026-09-28T23:13:25 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC025_sortLowToHigh -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:25 IST" name="tearDown" finished-at="2026-09-28T23:13:25 IST" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC025_sortLowToHigh status=SUCCESS method=ProductTests.TC025_sortLowToHigh()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:25 IST" name="setUp" finished-at="2026-09-28T23:13:26 IST" duration-ms="1626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC026_sortHighToLow()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:26 IST" name="TC026_sortHighToLow" finished-at="2026-09-28T23:13:27 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC026_sortHighToLow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:27 IST" name="tearDown" finished-at="2026-09-28T23:13:27 IST" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC026_sortHighToLow status=SUCCESS method=ProductTests.TC026_sortHighToLow()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:27 IST" name="setUp" finished-at="2026-09-28T23:13:29 IST" duration-ms="1762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC027_openProductCart()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:29 IST" name="TC027_openProductCart" finished-at="2026-09-28T23:13:29 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC027_openProductCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:29 IST" name="tearDown" finished-at="2026-09-28T23:13:30 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC027_openProductCart status=SUCCESS method=ProductTests.TC027_openProductCart()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:30 IST" name="setUp" finished-at="2026-09-28T23:13:31 IST" duration-ms="1647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC028_productImagesValidation()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:31 IST" name="TC028_productImagesValidation" finished-at="2026-09-28T23:13:32 IST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC028_productImagesValidation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:32 IST" name="tearDown" finished-at="2026-09-28T23:13:32 IST" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC028_productImagesValidation status=SUCCESS method=ProductTests.TC028_productImagesValidation()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:32 IST" name="setUp" finished-at="2026-09-28T23:13:34 IST" duration-ms="1698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC029_productPriceValidation()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:34 IST" name="TC029_productPriceValidation" finished-at="2026-09-28T23:13:34 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC029_productPriceValidation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:34 IST" name="tearDown" finished-at="2026-09-28T23:13:35 IST" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC029_productPriceValidation status=SUCCESS method=ProductTests.TC029_productPriceValidation()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:35 IST" name="setUp" finished-at="2026-09-28T23:13:36 IST" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC030_productDescriptionValidation()[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:36 IST" name="TC030_productDescriptionValidation" finished-at="2026-09-28T23:13:37 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC030_productDescriptionValidation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.ProductTests@20d525]" started-at="2026-09-28T23:13:37 IST" name="tearDown" finished-at="2026-09-28T23:13:37 IST" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC030_productDescriptionValidation status=SUCCESS method=ProductTests.TC030_productDescriptionValidation()[pri:0, instance:com.shopEase.tests.ProductTests@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shopEase.tests.ProductTests -->
+    </test> <!-- Product Tests -->
+    <test started-at="2026-09-28T23:13:37 IST" name="Cart Tests" finished-at="2026-09-28T23:14:28 IST" duration-ms="51328">
+      <class name="com.shopEase.tests.CartTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:37 IST" name="setUp" finished-at="2026-09-28T23:13:38 IST" duration-ms="1622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC031_openEmptyCart()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:38 IST" name="TC031_openEmptyCart" finished-at="2026-09-28T23:13:44 IST" duration-ms="5456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC031_openEmptyCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:44 IST" name="tearDown" finished-at="2026-09-28T23:13:44 IST" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC031_openEmptyCart status=SUCCESS method=CartTests.TC031_openEmptyCart()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:44 IST" name="setUp" finished-at="2026-09-28T23:13:46 IST" duration-ms="1690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC032_addOneProduct()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:46 IST" name="TC032_addOneProduct" finished-at="2026-09-28T23:13:46 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC032_addOneProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:46 IST" name="tearDown" finished-at="2026-09-28T23:13:46 IST" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC032_addOneProduct status=SUCCESS method=CartTests.TC032_addOneProduct()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:46 IST" name="setUp" finished-at="2026-09-28T23:13:48 IST" duration-ms="1471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC033_addMultipleProducts()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:48 IST" name="TC033_addMultipleProducts" finished-at="2026-09-28T23:13:48 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC033_addMultipleProducts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:48 IST" name="tearDown" finished-at="2026-09-28T23:13:49 IST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC033_addMultipleProducts status=SUCCESS method=CartTests.TC033_addMultipleProducts()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:49 IST" name="setUp" finished-at="2026-09-28T23:13:50 IST" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC034_removeProduct()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:50 IST" name="TC034_removeProduct" finished-at="2026-09-28T23:13:56 IST" duration-ms="5601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC034_removeProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:56 IST" name="tearDown" finished-at="2026-09-28T23:13:56 IST" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC034_removeProduct status=SUCCESS method=CartTests.TC034_removeProduct()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:56 IST" name="setUp" finished-at="2026-09-28T23:13:58 IST" duration-ms="2168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC035_removeAllProducts()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:13:58 IST" name="TC035_removeAllProducts" finished-at="2026-09-28T23:14:04 IST" duration-ms="5657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC035_removeAllProducts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:04 IST" name="tearDown" finished-at="2026-09-28T23:14:04 IST" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC035_removeAllProducts status=SUCCESS method=CartTests.TC035_removeAllProducts()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:04 IST" name="setUp" finished-at="2026-09-28T23:14:06 IST" duration-ms="2615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC036_continueShopping()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:06 IST" name="TC036_continueShopping" finished-at="2026-09-28T23:14:07 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC036_continueShopping -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:07 IST" name="tearDown" finished-at="2026-09-28T23:14:07 IST" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC036_continueShopping status=SUCCESS method=CartTests.TC036_continueShopping()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:07 IST" name="setUp" finished-at="2026-09-28T23:14:08 IST" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC037_cartUrlValidation()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:08 IST" name="TC037_cartUrlValidation" finished-at="2026-09-28T23:14:09 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC037_cartUrlValidation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:09 IST" name="tearDown" finished-at="2026-09-28T23:14:09 IST" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC037_cartUrlValidation status=SUCCESS method=CartTests.TC037_cartUrlValidation()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:09 IST" name="setUp" finished-at="2026-09-28T23:14:10 IST" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC038_productNameInCart()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:10 IST" name="TC038_productNameInCart" finished-at="2026-09-28T23:14:11 IST" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC038_productNameInCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:11 IST" name="tearDown" finished-at="2026-09-28T23:14:11 IST" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC038_productNameInCart status=SUCCESS method=CartTests.TC038_productNameInCart()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:11 IST" name="setUp" finished-at="2026-09-28T23:14:12 IST" duration-ms="1389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC039_productPriceInCart()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:12 IST" name="TC039_productPriceInCart" finished-at="2026-09-28T23:14:13 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC039_productPriceInCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:13 IST" name="tearDown" finished-at="2026-09-28T23:14:13 IST" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC039_productPriceInCart status=SUCCESS method=CartTests.TC039_productPriceInCart()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:13 IST" name="setUp" finished-at="2026-09-28T23:14:14 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC040_productQuantityValidation()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:14 IST" name="TC040_productQuantityValidation" finished-at="2026-09-28T23:14:15 IST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC040_productQuantityValidation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:15 IST" name="tearDown" finished-at="2026-09-28T23:14:15 IST" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC040_productQuantityValidation status=SUCCESS method=CartTests.TC040_productQuantityValidation()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:15 IST" name="setUp" finished-at="2026-09-28T23:14:17 IST" duration-ms="1581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC041_checkoutFromCart()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:17 IST" name="TC041_checkoutFromCart" finished-at="2026-09-28T23:14:17 IST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC041_checkoutFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:17 IST" name="tearDown" finished-at="2026-09-28T23:14:18 IST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC041_checkoutFromCart status=SUCCESS method=CartTests.TC041_checkoutFromCart()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:18 IST" name="setUp" finished-at="2026-09-28T23:14:19 IST" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC042_addRemoveAddProduct()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:19 IST" name="TC042_addRemoveAddProduct" finished-at="2026-09-28T23:14:20 IST" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC042_addRemoveAddProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:20 IST" name="tearDown" finished-at="2026-09-28T23:14:20 IST" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC042_addRemoveAddProduct status=SUCCESS method=CartTests.TC042_addRemoveAddProduct()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:20 IST" name="setUp" finished-at="2026-09-28T23:14:22 IST" duration-ms="1500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC043_cartAfterLogout()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:22 IST" name="TC043_cartAfterLogout" finished-at="2026-09-28T23:14:23 IST" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC043_cartAfterLogout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:23 IST" name="tearDown" finished-at="2026-09-28T23:14:23 IST" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC043_cartAfterLogout status=SUCCESS method=CartTests.TC043_cartAfterLogout()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:23 IST" name="setUp" finished-at="2026-09-28T23:14:24 IST" duration-ms="1396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC044_cartNavigation()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:24 IST" name="TC044_cartNavigation" finished-at="2026-09-28T23:14:26 IST" duration-ms="1248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC044_cartNavigation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:26 IST" name="tearDown" finished-at="2026-09-28T23:14:26 IST" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC044_cartNavigation status=SUCCESS method=CartTests.TC044_cartNavigation()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:26 IST" name="setUp" finished-at="2026-09-28T23:14:27 IST" duration-ms="1345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC045_multipleProductCartPersistence()[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:27 IST" name="TC045_multipleProductCartPersistence" finished-at="2026-09-28T23:14:28 IST" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC045_multipleProductCartPersistence -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CartTests@66d18979]" started-at="2026-09-28T23:14:28 IST" name="tearDown" finished-at="2026-09-28T23:14:28 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC045_multipleProductCartPersistence status=SUCCESS method=CartTests.TC045_multipleProductCartPersistence()[pri:0, instance:com.shopEase.tests.CartTests@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shopEase.tests.CartTests -->
+    </test> <!-- Cart Tests -->
+    <test started-at="2026-09-28T23:14:28 IST" name="Checkout Tests" finished-at="2026-09-28T23:15:15 IST" duration-ms="46840">
+      <class name="com.shopEase.tests.CheckoutTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:28 IST" name="setUp" finished-at="2026-09-28T23:14:31 IST" duration-ms="3073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC046_checkoutPage()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:31 IST" name="TC046_checkoutPage" finished-at="2026-09-28T23:14:32 IST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC046_checkoutPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:32 IST" name="tearDown" finished-at="2026-09-28T23:14:32 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC046_checkoutPage status=SUCCESS method=CheckoutTests.TC046_checkoutPage()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:32 IST" name="setUp" finished-at="2026-09-28T23:14:34 IST" duration-ms="1836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC047_validCheckout()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:34 IST" name="TC047_validCheckout" finished-at="2026-09-28T23:14:36 IST" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC047_validCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:36 IST" name="tearDown" finished-at="2026-09-28T23:14:36 IST" duration-ms="271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC047_validCheckout status=SUCCESS method=CheckoutTests.TC047_validCheckout()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:36 IST" name="setUp" finished-at="2026-09-28T23:14:38 IST" duration-ms="1942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC048_emptyFirstName()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:38 IST" name="TC048_emptyFirstName" finished-at="2026-09-28T23:14:39 IST" duration-ms="1607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC048_emptyFirstName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:39 IST" name="tearDown" finished-at="2026-09-28T23:14:40 IST" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC048_emptyFirstName status=SUCCESS method=CheckoutTests.TC048_emptyFirstName()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:40 IST" name="setUp" finished-at="2026-09-28T23:14:42 IST" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC049_emptyLastName()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:42 IST" name="TC049_emptyLastName" finished-at="2026-09-28T23:14:43 IST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC049_emptyLastName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:43 IST" name="tearDown" finished-at="2026-09-28T23:14:43 IST" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC049_emptyLastName status=SUCCESS method=CheckoutTests.TC049_emptyLastName()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:43 IST" name="setUp" finished-at="2026-09-28T23:14:45 IST" duration-ms="1816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC050_emptyPostalCode()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:45 IST" name="TC050_emptyPostalCode" finished-at="2026-09-28T23:14:46 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC050_emptyPostalCode -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:46 IST" name="tearDown" finished-at="2026-09-28T23:14:46 IST" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC050_emptyPostalCode status=SUCCESS method=CheckoutTests.TC050_emptyPostalCode()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:46 IST" name="setUp" finished-at="2026-09-28T23:14:48 IST" duration-ms="1928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC051_allFieldsEmpty()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:48 IST" name="TC051_allFieldsEmpty" finished-at="2026-09-28T23:14:49 IST" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC051_allFieldsEmpty -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:49 IST" name="tearDown" finished-at="2026-09-28T23:14:49 IST" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC051_allFieldsEmpty status=SUCCESS method=CheckoutTests.TC051_allFieldsEmpty()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:49 IST" name="setUp" finished-at="2026-09-28T23:14:51 IST" duration-ms="1621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC052_validFirstName()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:51 IST" name="TC052_validFirstName" finished-at="2026-09-28T23:14:52 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC052_validFirstName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:52 IST" name="tearDown" finished-at="2026-09-28T23:14:52 IST" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC052_validFirstName status=SUCCESS method=CheckoutTests.TC052_validFirstName()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:52 IST" name="setUp" finished-at="2026-09-28T23:14:54 IST" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC053_validLastName()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:54 IST" name="TC053_validLastName" finished-at="2026-09-28T23:14:55 IST" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC053_validLastName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:55 IST" name="tearDown" finished-at="2026-09-28T23:14:55 IST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC053_validLastName status=SUCCESS method=CheckoutTests.TC053_validLastName()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:55 IST" name="setUp" finished-at="2026-09-28T23:14:57 IST" duration-ms="1857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC054_validPostalCode()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:57 IST" name="TC054_validPostalCode" finished-at="2026-09-28T23:14:57 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC054_validPostalCode -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:57 IST" name="tearDown" finished-at="2026-09-28T23:14:57 IST" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC054_validPostalCode status=SUCCESS method=CheckoutTests.TC054_validPostalCode()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:57 IST" name="setUp" finished-at="2026-09-28T23:14:59 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC055_continueCheckout()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:14:59 IST" name="TC055_continueCheckout" finished-at="2026-09-28T23:15:00 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC055_continueCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:00 IST" name="tearDown" finished-at="2026-09-28T23:15:01 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC055_continueCheckout status=SUCCESS method=CheckoutTests.TC055_continueCheckout()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:01 IST" name="setUp" finished-at="2026-09-28T23:15:02 IST" duration-ms="1555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC056_orderOverview()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:02 IST" name="TC056_orderOverview" finished-at="2026-09-28T23:15:03 IST" duration-ms="1119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC056_orderOverview -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:03 IST" name="tearDown" finished-at="2026-09-28T23:15:03 IST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC056_orderOverview status=SUCCESS method=CheckoutTests.TC056_orderOverview()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:03 IST" name="setUp" finished-at="2026-09-28T23:15:05 IST" duration-ms="1431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC057_finishOrder()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:05 IST" name="TC057_finishOrder" finished-at="2026-09-28T23:15:06 IST" duration-ms="1165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC057_finishOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:06 IST" name="tearDown" finished-at="2026-09-28T23:15:06 IST" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC057_finishOrder status=SUCCESS method=CheckoutTests.TC057_finishOrder()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:06 IST" name="setUp" finished-at="2026-09-28T23:15:08 IST" duration-ms="1510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC058_orderConfirmation()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:08 IST" name="TC058_orderConfirmation" finished-at="2026-09-28T23:15:09 IST" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC058_orderConfirmation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:09 IST" name="tearDown" finished-at="2026-09-28T23:15:09 IST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC058_orderConfirmation status=SUCCESS method=CheckoutTests.TC058_orderConfirmation()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:09 IST" name="setUp" finished-at="2026-09-28T23:15:11 IST" duration-ms="1706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC059_multipleProductCheckout()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:11 IST" name="TC059_multipleProductCheckout" finished-at="2026-09-28T23:15:12 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC059_multipleProductCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:12 IST" name="tearDown" finished-at="2026-09-28T23:15:12 IST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC059_multipleProductCheckout status=SUCCESS method=CheckoutTests.TC059_multipleProductCheckout()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:12 IST" name="setUp" finished-at="2026-09-28T23:15:14 IST" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC060_checkoutRegression()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:14 IST" name="TC060_checkoutRegression" finished-at="2026-09-28T23:15:15 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC060_checkoutRegression -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9]" started-at="2026-09-28T23:15:15 IST" name="tearDown" finished-at="2026-09-28T23:15:15 IST" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC060_checkoutRegression status=SUCCESS method=CheckoutTests.TC060_checkoutRegression()[pri:0, instance:com.shopEase.tests.CheckoutTests@75db5df9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shopEase.tests.CheckoutTests -->
+    </test> <!-- Checkout Tests -->
+  </suite> <!-- ShopEase Full Regression Suite -->
+</testng-results>

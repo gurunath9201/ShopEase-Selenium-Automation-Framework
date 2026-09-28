@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM
+        "https://testng.org/testng-1.0.dtd">
+
+<suite name="ShopEase Full Regression Suite">
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.shopEase.tests.LoginTests"/>
+        </classes>
+    </test>
+
+    <test name="Product Tests">
+        <classes>
+            <class name="com.shopEase.tests.ProductTests"/>
+        </classes>
+    </test>
+
+    <test name="Cart Tests">
+        <classes>
+            <class name="com.shopEase.tests.CartTests"/>
+        </classes>
+    </test>
+
+    <test name="Checkout Tests">
+        <classes>
+            <class name="com.shopEase.tests.CheckoutTests"/>
+        </classes>
+    </test>
+
+</suite>
